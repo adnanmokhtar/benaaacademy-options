@@ -1,0 +1,23 @@
+{
+    "name": "benaaacademy/options",
+    "description": "The options plugin of benaaacademy/platform",
+    "keywords": [
+        "framework",
+        "laravel",
+        "cms",
+        "plugins",
+        "platform",
+        "benaaacademy",
+        "options"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "benaaacademy/platform": "0.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benaaacademy\\Options\\": "src"
+        }
+    }
+}
